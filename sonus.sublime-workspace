@@ -520,7 +520,7 @@
 	"buffers":
 	[
 		{
-			"file": "src/Closca/Sonus/Helpers.php",
+			"file": "src/Hansim/Sonus/Helpers.php",
 			"settings":
 			{
 				"buffer_size": 1257,
@@ -544,7 +544,7 @@
 			}
 		},
 		{
-			"file": "src/Closca/Sonus/Facade.php",
+			"file": "src/Hansim/Sonus/Facade.php",
 			"settings":
 			{
 				"buffer_size": 313,
@@ -552,7 +552,7 @@
 			}
 		},
 		{
-			"file": "src/Closca/Sonus/SonusServiceProvider.php",
+			"file": "src/Hansim/Sonus/SonusServiceProvider.php",
 			"settings":
 			{
 				"buffer_size": 720,
@@ -568,7 +568,7 @@
 			}
 		},
 		{
-			"file": "src/Closca/Sonus/Sonus.php",
+			"file": "src/Hansim/Sonus/Sonus.php",
 			"settings":
 			{
 				"buffer_size": 19432,
@@ -606,8 +606,8 @@
 		"/C/xampp/htdocs/sonus",
 		"/C/xampp/htdocs/sonus/public",
 		"/C/xampp/htdocs/sonus/src",
-		"/C/xampp/htdocs/sonus/src/Closca",
-		"/C/xampp/htdocs/sonus/src/Closca/Sonus",
+		"/C/xampp/htdocs/sonus/src/Hansim",
+		"/C/xampp/htdocs/sonus/src/Hansim/Sonus",
 		"/C/xampp/htdocs/sonus/src/config",
 		"/C/xampp/htdocs/sonus/src/controllers",
 		"/C/xampp/htdocs/sonus/src/lang",
@@ -618,8 +618,8 @@
 	[
 		"/C/xampp/htdocs/sonus/src/config/config.php",
 		"/C/xampp/htdocs/sonus/sonus.sublime-project",
-		"/C/xampp/htdocs/sonus/src/Closca/Sonus/Sonus.php",
-		"/C/xampp/htdocs/sonus/src/Closca/Sonus/Facade.php",
+		"/C/xampp/htdocs/sonus/src/Hansim/Sonus/Sonus.php",
+		"/C/xampp/htdocs/sonus/src/Hansim/Sonus/Facade.php",
 		"/C/xampp/htdocs/foc/vendor/rafasamp/sonus/src/Rafasamp/Sonus/Helpers.php",
 		"/C/xampp/htdocs/foc/public/templates/frontend/default/model/partials_ajax/new_video.blade.php",
 		"/C/xampp/htdocs/foc/app/models/Video.php",
@@ -896,7 +896,7 @@
 		"regex": false,
 		"replace_history":
 		[
-			"Closca",
+			"Hansim",
 			"'.',\",\"",
 			"'.',\"'\"",
 			"'.',' ')",
@@ -952,7 +952,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/Closca/Sonus/Helpers.php",
+					"file": "src/Hansim/Sonus/Helpers.php",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1042,7 +1042,7 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/Closca/Sonus/Facade.php",
+					"file": "src/Hansim/Sonus/Facade.php",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1070,7 +1070,7 @@
 				},
 				{
 					"buffer": 4,
-					"file": "src/Closca/Sonus/SonusServiceProvider.php",
+					"file": "src/Hansim/Sonus/SonusServiceProvider.php",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1129,7 +1129,7 @@
 				},
 				{
 					"buffer": 6,
-					"file": "src/Closca/Sonus/Sonus.php",
+					"file": "src/Hansim/Sonus/Sonus.php",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1208,7 +1208,7 @@
 		[
 			[
 				"sonus.php",
-				"src\\Closca\\Sonus\\Sonus.php"
+				"src\\Hansim\\Sonus\\Sonus.php"
 			],
 			[
 				"video.",

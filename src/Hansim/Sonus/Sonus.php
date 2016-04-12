@@ -1,7 +1,7 @@
-<?php namespace Closca\Sonus;
+<?php namespace Hansim\Sonus;
 
 use Config;
-use Closca\Sonus\Helpers;
+use Hansim\Sonus\Helpers;
 
 /**
  * Laravel Audio Conversion Package

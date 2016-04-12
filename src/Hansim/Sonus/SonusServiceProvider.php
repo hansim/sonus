@@ -1,4 +1,4 @@
-<?php namespace Closca\Sonus;
+<?php namespace Hansim\Sonus;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,7 +18,7 @@ class SonusServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('closca/sonus');
+		$this->package('hansim/sonus');
 	}
 
 	/**

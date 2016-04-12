@@ -1,4 +1,4 @@
-<?php namespace Closca\Sonus;
+<?php namespace Hansim\Sonus;
 
 class Helpers
 {

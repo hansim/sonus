@@ -1,9 +1,9 @@
 # Sonus (Laravel 5 Compatible Package)
-[![Latest Stable Version](https://poser.pugx.org/closca/sonus/v/stable.png)](https://packagist.org/packages/closca/sonus)
-[![Build Status](https://travis-ci.org/closca/sonus.png?branch=master)](https://travis-ci.org/closca/sonus)
-[![Total Downloads](https://poser.pugx.org/closca/sonus/downloads.png)](https://packagist.org/packages/closca/sonus)
-[![ProjectStatus](https://stillmaintained.com/closca/sonus.png)](https://stillmaintained.com/closca/sonus.png)
-[![License](https://poser.pugx.org/closca/sonus/license.png)](https://packagist.org/packages/closca/sonus)
+[![Latest Stable Version](https://poser.pugx.org/hansim/sonus/v/stable.png)](https://packagist.org/packages/hansim/sonus)
+[![Build Status](https://travis-ci.org/hansim/sonus.png?branch=master)](https://travis-ci.org/hansim/sonus)
+[![Total Downloads](https://poser.pugx.org/hansim/sonus/downloads.png)](https://packagist.org/packages/hansim/sonus)
+[![ProjectStatus](https://stillmaintained.com/hansim/sonus.png)](https://stillmaintained.com/hansim/sonus.png)
+[![License](https://poser.pugx.org/hansim/sonus/license.png)](https://packagist.org/packages/hansim/sonus)
 
 
 **** NOTE ****
@@ -20,42 +20,42 @@ Sonus is a tool designed to leverage the power of **Laravel 4** and **ffmpeg** t
 
 Update your `composer.json` file and add the following under the `require` key
 
-	"closca/sonus": "dev-master"
+	"hansim/sonus": "dev-master"
 For Laravel 5 use
 
-    "closca/sonus": "dev-l5"
+    "hansim/sonus": "dev-l5"
     
 Run the composer update command:
 
 	$ composer update
 
-In your `config/app.php` add `'Closca\Sonus\SonusServiceProvider'` to the end of the `$providers` array
+In your `config/app.php` add `'Hansim\Sonus\SonusServiceProvider'` to the end of the `$providers` array
 
     'providers' => array(
 
         'Illuminate\Foundation\Providers\ArtisanServiceProvider',
         'Illuminate\Auth\AuthServiceProvider',
         ...
-        'Closca\Sonus\SonusServiceProvider',
+        'Hansim\Sonus\SonusServiceProvider',
 
     ),
 
-Still under `config/app.php` add `'Sonus' => 'Closca\Sonus\Facade'` to the `$aliases` array
+Still under `config/app.php` add `'Sonus' => 'Hansim\Sonus\Facade'` to the `$aliases` array
 
     'aliases' => array(
 
         'App'             => 'Illuminate\Support\Facades\App',
         'Artisan'         => 'Illuminate\Support\Facades\Artisan',
         ...
-        'Sonus'           => 'Closca\Sonus\Facade',
+        'Sonus'           => 'Hansim\Sonus\Facade',
 
     ),
 
 Run the `artisan` command below to publish the configuration file
 
-	$ php artisan config:publish Closca/Sonus
+	$ php artisan config:publish Hansim/Sonus
 
-Navigate to `app/config/packages/Closca/Sonus/config.php` and update all four parameters
+Navigate to `app/config/packages/Hansim/Sonus/config.php` and update all four parameters
 
 ### Examples
 
@@ -146,4 +146,4 @@ Sonus is free software distributed under the terms of the MIT license.
 
 Any questions, feel free to contact me.
 
-Any issues, please [report here](https://github.com/closca/sonus/issues)
+Any issues, please [report here](https://github.com/hansim/sonus/issues)
